@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contactForm.css">
+
+</head>
+
+<body id="content">
+    <div class="navbar" id="header">
+        <div class="logo">
+            <img src="https://thumbs.dreamstime.com/b/just-brew-hand-crafted-lettering-inside-coffee-mug-drawn-poster-bar-cafe-decor-t-shirt-print-flat-cartoon-vector-245369543.jpg" alt="Logo" class="logo">
+        </div>
+        <div class="title">
+            <h1>Bean & Brew</h1>
+        </div>
+        <div class="tabs" id="tabs">
+            <div class="tab"><a href="index.html">Home</a></div>
+            <div class="tab"><a href="menu.html">Our Catalogue</a></div>
+            <div class="tab"><a href="contactForm.html">Contact Us</a></div>
+        </div>
+    </div><br><br>
+
+    <form id="buyNowForm" class="checkout-form">
+        <h2>Checkout :)</h2>
+        <div class="product-selection">
+            <h3>Select Your Product</h3>
+            <select id="product-select">
+                <option value="espresso">Espresso - ₹100</option>
+                <option value="latte">Latte - ₹120</option>
+                <option value="cappuccino">Cappuccino - ₹140</option>
+                <option value="americano">Americano - ₹110</option>
+                <option value="mocha">Mocha - ₹150</option>
+                <option value="blueberry-muffin">Blueberry Muffin - ₹80</option>
+                <option value="chocolate-croissant">Chocolate Croissant - ₹120</option>
+                <option value="cheese-danish">Cheese Danish - ₹90</option>
+                <option value="almond-biscotti">Almond Biscotti - ₹70</option>
+                <option value="lemon-tart">Lemon Tart - ₹100</option>
+                <option value="carrot-cake">Carrot Cake - ₹130</option>
+                <option value="red-velvet-cupcake">Red Velvet Cupcake - ₹90</option>
+                <option value="chocolate-chip-cookie">Chocolate Chip Cookie - ₹50</option>
+                <option value="banana-bread">Banana Bread - ₹70</option>
+                <option value="pumpkin-pie">Pumpkin Pie - ₹110</option>
+            </select><br><br>
+            <label for="special-instruction">Special Instruction:</label>
+            <textarea id="special-instruction" name="special-instruction"></textarea>
+        </div>
+        <div class="customer-info">
+            <h3>Customer Information</h3><br>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" required></textarea>
+        </div>
+        <div class="payment">
+            <h3>Payment :</h3>
+        </div>
+        <button type="submit">Place Order</button>
+    </form><br><br><br>
+    
+    <div id="footer" >
+        <div class="contact-info">
+            <div class="find-us">
+                <h3>Find us here :)</h3>
+                <ul class="social-icons">
+                    <li><a href="#">facebook<i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#">twitter<i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#">instagram<i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <div class="contact-details">
+                <h3>Contact with us :</h3>
+                <p><a href="mailto:beanandbrew@gmail.com">beanandbrew@gmail.com</a></p>
+                <p>+91 123456789</p>
+            </div>
+            <div class="copyright">
+                &copy; 2024 Bean & Brew | All Rights Reserved 
+            </div>
+        </div>
+    </div>
+</body>
+</html>
